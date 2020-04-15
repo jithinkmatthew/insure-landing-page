@@ -124,10 +124,65 @@ html,body {
 .banner-left-bc-img {
     background-image: url(./images/bg-pattern-intro-left-desktop.svg);
     background-repeat: no-repeat;
-    position: relative;
-    height: 552px;
-    bottom: 172px;
+    position: absolute;
+    height: 500px;
+    top: 670px;
+    left: 0;
+    right: 0;
 }
+
+.features-container {
+    /* margin-top: 290px; */
+    /* margin-left: 200px; */
+    margin: 290px 200px 0 200px;
+
+
+
+    height: 800px;
+}
+
+.line-c {
+    margin-bottom: 80px;
+    border: 1px solid #d5ccd6;
+    width: 150px;
+}
+
+.feature-title {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.feature-item-container {
+    display: flex;
+    margin-top: 90px;
+}
+
+.feature-item {
+    width: calc(100%/3);
+    margin: 0 40px;
+}
+
+div.feature-item:nth-child(1) {
+    margin-left: 0px;
+}
+
+div.feature-item:nth-child(3) {
+    margin-right: 0px;
+}
+
+.feature-item-title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.feature-item-desc {
+    margin-top: 20px;
+    color: #99999b;
+    font-size: 20px;
+}
+
+
 
 
 
