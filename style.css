@@ -219,7 +219,7 @@ div.feature-item:nth-child(3) {
 
 .footer-main-container {
     background: #fafafa;
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -230,7 +230,19 @@ div.feature-item:nth-child(3) {
 .footer-top {
     display: flex;
     justify-content: space-between;
-    height: 150px;
+    height: 120px;
+    align-items: center;
+}
+
+.footer-top-right a {
+    margin-left: 10px;
+}
+
+.line-footer {
+    margin-bottom: 60px;
+    border: 1px solid #d4d4d4;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .footer-bottom {
@@ -245,22 +257,155 @@ div.feature-item:nth-child(3) {
 
 .block-title {
     color: #8f8f8f;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 
 .block-text {
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    
+    color: #545159;
 }
 
 
+/* iPhone  X*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    body {
+        min-width: 940px;
+    }
+
+    .header-container {
+        height: 180px;
+    }
+
+    .header-left {
+        margin-left: 70px;
+        width: 0;
+    }
+
+    .header-left img {
+        width: 280px;
+        height: 50px;
+    }
+
+    .hamburg-btn ~ .link {
+        display: none;
+    }
+
+    .header-right {
+        margin-right: 70px;
+    }
+
+    .header-right img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        height: 2500px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    
+    .banner-right {
+        background-image: url(./images/image-intro-mobile.jpg);
+        background-repeat: no-repeat;
+        margin-right: 0px;
+        margin-top: 0px;
+        background-size: unset;
+        width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .banner-left {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner-left .line {
+        display: none;
+    }
+
+    .banner-bc-img {
+        left: 0px;
+        right: 71px;
+        background-image: url(./images/bg-pattern-intro-right-mobile.svg);
+        top: 2006px;
+        background-size: 28%;
+        height: 885px;
+    }
+
+    .banner-left-bc-img {
+        background-image: url(./images/bg-pattern-intro-left-mobile.svg);
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 511px;
+        left: 0px;
+        right: 0px;
+        top: 1392px;
+        background-size: 40%;
+    }
+
+    .banner-title {
+        font-size: 115px;
+        font-weight: 600;
+    }
+
+    .banner-title-top {
+
+    }
+
+    .banner-desc {
+        margin-top: 35px;
+        line-height: 80px;
+        font-size: 45px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .view-btn {
+        padding: 35px 110px;
+        margin-top: 91px;
+        display: flex;
+        margin-bottom: 205px;
+    }
+
+    .view-btn a {
+        font-size: 35px;
+    }
+
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        margin-top: 240px;
+    }
+
+    .line-c {
+        width: 40%;
+    }
+
+    .feature-title {
+        font-size: 100px;
+        font-weight: 700;
+    }
 
 
-
-
+}
