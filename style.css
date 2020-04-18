@@ -384,6 +384,7 @@ div.feature-item:nth-child(3) {
         margin-top: 91px;
         display: flex;
         margin-bottom: 205px;
+        border: 5px solid white;
     }
 
     .view-btn a {
@@ -407,5 +408,130 @@ div.feature-item:nth-child(3) {
         font-weight: 700;
     }
 
+    .feature-item-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 190px;
+    }
+
+    .feature-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 202px;
+    }
+
+    .feature-item-title {
+        font-size: 65px;
+    }
+
+    .icon-cont img {
+        height: 250px;
+        width: 250px;
+    }
+
+    div.feature-item {
+        width: 85%;
+    }
+
+    .feature-item-desc {
+        font-size: 40px;
+        text-align: center;
+        line-height: 60px;
+    }
+
+    .sub-banner-container {
+        margin: 0 50px;
+        height: 1000px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sub-banner-left {
+        font-size: 88px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .sub-banner-right {
+        margin-right: 0px;
+    }
+
+    .work-btn {
+        margin-top: 90px;
+        padding: 35px 110px;
+        border: 5px solid white;
+    }
+
+    .work-btn a {
+        font-size: 35px;
+    }
+
+    .sub-banner-container {
+        background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: right 2px;
+        background-size: 60%;
+    }
+
+    .footer-main-container {
+        height: 2450px;
+        background-image: url(./images/bg-pattern-footer-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .footer-container {
+        margin: 0 80px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        margin: 150px 0;
+        padding-top: 200px;
+    }
+
+    div.footer-top-left img {
+        height: 50px;
+    }
+
+    .footer-top-right {
+        margin-top: 60px;
+    }
+
+    div.footer-top-right img {
+        height: 50px;
+        margin: 0px 18px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tile-block {
+        margin-right: 0px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-top: 20px;
+    }
+
+    .block-title {
+        font-size: 33px;
+        margin-bottom: 100px;
+    }
+
+    .block-text {
+        font-size: 33px;
+        margin-bottom: 30px;
+    }
 
 }
