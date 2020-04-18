@@ -32,25 +32,54 @@ html,body {
     margin-right: 190px;
 }
 
+.hamburg-btn {
+    display: none;
+}
+
 .link {
     margin: 0 10px;
     font-size: 15px;
     font-weight: 600;
 }
 
+/* div.link:hover {
+    color: black;
+    cursor: pointer;
+} */
+
+div.link a {
+    text-decoration: none;
+    color: #868487;
+}
+
+div.link a:hover {
+    text-decoration: none;
+    color: #868487;
+    color: black;
+    cursor: pointer;
+}
+
+
+
 .link-btn {
     border: 2px solid #3e3d41;
-    padding: 10px 20px;
+    padding: 10px 0px;
 }
 
-.link-btn a {
-    color: #515153;
+.link-btn:hover {
+    background: black;
+    /* color: white; */
+}
+
+div.link-btn a {
+    color: black;
     text-decoration: none;
+    padding: 10px 25px;
 }
 
-.content-container {
-    /* margin-left: 200px; */
-    /* margin-right: 200px; */
+div.link-btn a:hover {
+    color: white;
+    /* padding: 10px 25px; */
 }
 
 .banner-container {
@@ -90,18 +119,25 @@ html,body {
 
 .view-btn {
     border: 2px solid white;
-    padding: 10px 20px;
     color: white;
     margin-top: 50px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
 
+.view-btn:hover {
+    background: white;
 }
 
 .view-btn a {
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
 }
 
-
+.view-btn a:hover {
+    color: black;
+}
 
 .banner-right {
     background-image: url(./images/image-intro-desktop.jpg);
@@ -122,8 +158,9 @@ html,body {
     width: 100%;
     height: 100%;
     position: relative;
-    bottom: 225px;
-    left: 199px;
+    bottom: 135px;
+    left: 200px;
+    background-size: 76%;
 }
 
 .banner-left-bc-img {
@@ -131,9 +168,10 @@ html,body {
     background-repeat: no-repeat;
     position: absolute;
     height: 500px;
-    top: 670px;
+    top: 722px;
     left: 0;
     right: 0;
+    background-size: 7%;
 }
 
 .features-container {
@@ -206,25 +244,49 @@ div.feature-item:nth-child(3) {
 
 .work-btn {
     border: 2px solid white;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding: 10px 0px;
     color: white;
     margin-top: 50px;
 
 }
 
+.work-btn:hover {
+    background: white;
+}
+
 .work-btn a {
     color: white;
     text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.work-btn a:hover {
+    color: black;
 }
 
 .footer-main-container {
     background: #fafafa;
     height: 400px;
+    background-image: url(./images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: 0px -34px;
 }
 
 
 .footer-container {
-    margin: 75px 200px 0px 200px;
+    /* margin: 75px 200px 0px 200px; */
+    margin: 150px 200px 0px 200px;
+}
+
+.footer-top-left {
+    margin-top: 50px;
+}
+
+.footer-top-right {
+    margin-top: 50px;
 }
 
 .footer-top {
@@ -271,6 +333,10 @@ div.feature-item:nth-child(3) {
     color: #545159;
 }
 
+.block-text:hover {
+    text-decoration: underline;
+}
+
 
 /* iPhone  X*/
 @media only screen 
@@ -294,6 +360,10 @@ div.feature-item:nth-child(3) {
     .header-left img {
         width: 280px;
         height: 50px;
+    }
+
+    .hamburg-btn {
+        display: inline;
     }
 
     .hamburg-btn ~ .link {
@@ -358,17 +428,14 @@ div.feature-item:nth-child(3) {
         height: 511px;
         left: 0px;
         right: 0px;
-        top: 1392px;
+        /* top: 1392px; */
+        top: 1365px;
         background-size: 40%;
     }
 
     .banner-title {
         font-size: 115px;
         font-weight: 600;
-    }
-
-    .banner-title-top {
-
     }
 
     .banner-desc {
